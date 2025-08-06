@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web development 101 - EP2. HTML</title>
+</head>
+<body>
+    <!-- DOM (html tag) -->
+    <h1>Learn HTML</h1>
+    <section>
+        <h2>Outline</h2>
+        <ol>
+            <li>What is html?</li>
+            <li>Basic structure (<html>, <head>, <body>)</li>
+            <li>DOM (html tag)</li>
+            <ol>
+                <li>html content (h1-h6, p, list, table, link, image, video, br, div)</li>
+                <li>html semantic: help for SEO</li>
+                <li>html form (input text-number, checkbox, radio, textarea, button)</li>
+            </ol>
+
+        </ol>
+
+    </section>
+    <p>
+        Tag p with space between lines.
+    </p>
+    <p>
+        Tag p with space between lines.
+    </p>
+    <p>
+        Tag p with space between lines.
+    </p>
+    <div>
+        While tag div has no space.
+    </div>
+    <div>
+        While tag div has no space.
+    </div>
+    <div>
+        While tag div has no space.
+    </div>
+    <section>
+        <h1>This is a section tag</h1>
+        <p>It is similar to div but it has semantic meaning which means it helps for SEO.</p>
+        <p>Try a new line.</p>
+    </section>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+    <table>
+        <thead>
+            <td>Topic 1</td>
+            <td>Topic 2</td>
+        </thead>
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+        </tr>
+        <tr>
+            <td>Cell 3</td>
+            <td>Cell 4</td>
+        </tr>
+    </table>
+    <a href="https://www.google.com" target="_blank">
+        Google
+    </a><br>
+    <img 
+        src="https://fastly.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68"
+        width="200 px"
+        height="100 px"
+    >
+    <!-- Form -->
+     <h1>Register Form</h1>     
+     <div>  
+        Full Name <input type="text"> 
+        Surname <input type="text"> <br>
+        Age <input type="number" min="0" max="100">
+     </div>
+     <div>
+        Gender
+        <!-- Use div when has a new line instead of br for styling purpose -->
+        <!-- Set to choose only 1 radio by add "name" tag -->
+        <div>
+            <input name="gender" type="radio"> Male
+        </div>
+        <div>
+            <input name="gender" type="radio"> Female
+        </div>
+        <div>
+            <input name="gender" type="radio"> Prefer not to say
+        </div>
+     </div>
+     <div>
+        Interest
+        <div>
+            <input name="interest" type="checkbox"> Reading
+        </div>
+        <div>
+            <input name="interest" type="checkbox"> Writing
+        </div>
+        <div>
+            <input name="interest" type="checkbox"> Cooking
+        </div>
+     </div>
+     <div>More about me:
+        <div>
+            <textarea></textarea>
+        </div>
+     </div>
+     <a href="https://www.google.com">T&C</a>
+     <!-- There are 2 solution to create submit button. Look the same but different on EVENT in JS part -->
+     <button>Submit</button>
+     <input type="submit" value="Submit Form">
+
+     <div> 
+        <h2>Reference</h2> 
+        <div>
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/bPsj3DP98Uc"></iframe>
+        </div>
+     </div>
+
+
+</body>
+</html>
